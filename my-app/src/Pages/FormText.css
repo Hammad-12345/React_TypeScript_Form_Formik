@@ -1,0 +1,38 @@
+.Input_Field div input
+{
+    color: white;
+    border: 1px solid white;
+}
+.Input_Field div input::placeholder
+{
+    color: white;
+}
+.Input_Field div
+{
+    border: 1px solid white;
+}
+.Input_Field .Mui-focused .MuiOutlinedInput-notchedOutline
+{
+    border: 1px solid white !important;
+}
+.Input_Error div input
+{
+    color: white;
+    border: 1px solid rgb(245, 7, 7);
+}
+.Input_Error div
+{
+    border: 1px solid rgb(244, 26, 26);
+}
+.Input_Error .Mui-focused .MuiOutlinedInput-notchedOutline
+{
+    border: 1px solid rgb(222, 22, 22) !important;
+}
+.css-13lvt8g-MuiButtonBase-root-MuiRadio-root.Mui-checked
+{
+    color: white !important;
+}
+.css-13lvt8g-MuiButtonBase-root-MuiRadio-root
+{
+    color: white !important;
+}
