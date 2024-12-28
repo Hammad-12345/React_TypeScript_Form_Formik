@@ -29,7 +29,7 @@
 {
     border: 1px solid rgb(222, 22, 22) !important;
 }
-.css-13lvt8g-MuiButtonBase-root-MuiRadio-root.Mui-checked
+.MuiFormGroup-root label span.Mui-checked
 {
     color: white !important;
 }
