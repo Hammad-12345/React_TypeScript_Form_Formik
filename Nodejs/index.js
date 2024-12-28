@@ -12,7 +12,7 @@ dotenv.config();
 // connect with database
 const connectiondb = async () => {
   try {
-    await mongoose.connect(process.env.MONGO_DB);
+    await mongoose.connect(process.env.MONGO_DB,{ useNewUrlParser: true, useUnifiedTopology: true, connectTimeoutMS: 10000 });
     console.log("Connected With MongoDb Mern Stack");
   } catch (error) {
     console.log(error);
