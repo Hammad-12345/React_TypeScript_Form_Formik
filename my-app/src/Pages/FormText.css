@@ -2,10 +2,11 @@
 {
     color: white;
     border: 1px solid white;
+    border-radius: 4px;
 }
 .Input_Field div input::placeholder
 {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .Input_Field div
 {
@@ -35,4 +36,50 @@
 .css-13lvt8g-MuiButtonBase-root-MuiRadio-root
 {
     color: white !important;
+}
+.design_show
+{
+    transform: scaleX(0);
+    /* transform-origin: left center; */
+    animation: openform 0.5s ease-in-out forwards;
+}
+@keyframes openform {
+    0%
+    {
+        transform: scaleX(0);
+    }
+    100%
+    {
+        transform: scaleX(1);
+    }
+}
+.close_form
+{
+    animation: closeform 0.5s ease-in-out forwards;
+}
+@keyframes closeform {
+    0%
+    {
+        transform: scaleX(1);
+    }
+    100%
+    {
+        transform: scaleX(0);
+    }
+}
+.MuiSnackbar-root
+{
+    transform:scaleX(0);
+    transform-origin: right center;
+    animation: toaster 0.5s ease-in-out forwards;
+}
+@keyframes toaster {
+    0%
+    {
+        transform: scaleX(0);
+    }
+    100%
+    {
+        transform: scaleX(1);
+    }
 }
