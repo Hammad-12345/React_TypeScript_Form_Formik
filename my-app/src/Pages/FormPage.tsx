@@ -45,7 +45,7 @@ const FormPage = () => {
     updateformloader(true);
     try {
       const res = await axios.post(
-        `http://192.168.100.158:8080/Add_data`,
+        `https://react-type-script-form-formik-xbkmbackend.vercel.app/Add_data`,
         value
       );
       console.log(res);
